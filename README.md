@@ -2,7 +2,6 @@
 ## Azure Zero Trust Architecture — NIST SP 800-207
 ## Archirecture
 ![Architecture](docs/architecture-diagram.png)
-![Architecture](docs/architecture.png)
 
 ## Overview
 Complete Zero Trust security implementation
