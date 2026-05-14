@@ -1,5 +1,8 @@
-# 🔒 Zero Trust Implementation
+#  Zero Trust Implementation
 ## Azure Zero Trust Architecture — NIST SP 800-207
+## Archirecture
+![Architecture](docs/architecture-diagram.png)
+![Architecture](docs/architecture.png)
 
 ## Overview
 Complete Zero Trust security implementation
@@ -11,42 +14,42 @@ Zero Trust frameworks.
 *Region:* UK South
 *Cost:* Free tier compatible
 
-## 🎯 Zero Trust Principles
+##  Zero Trust Principles
 1. *Verify Explicitly* — Always authenticate
 2. *Least Privilege* — Minimum access always
 3. *Assume Breach* — Monitor everything
 
-## 🏛️ Four Pillars Implemented
+##  Four Pillars Implemented
 
-### 🔑 Identity Pillar
+###  Identity Pillar
 - 5 Conditional Access policies
 - MFA enforced for all users
 - Legacy authentication blocked
 - PIM for Just-In-Time admin access
 - High risk sign-ins auto-blocked
 
-### 🌐 Network Pillar
+###  Network Pillar
 - 5 micro-segmented subnets
 - Deny-all NSG rules by default
 - Explicit allow only
 - No public internet exposure
 - Private endpoints only
 
-### 💾 Data Pillar
+###  Data Pillar
 - Key Vault — public access disabled
 - Private endpoint access only
 - Soft delete + purge protection
 - RBAC authorization only
 - All access logged
 
-### 📊 Visibility Pillar
+###  Visibility Pillar
 - Microsoft Sentinel enabled
 - Defender for Cloud — all plans
 - Centralized Log Analytics
 - 90-day retention
 - Continuous monitoring
 
-## 🚀 Deployment
+##  Deployment
 powershell
 # Phase 1: Foundation
 .\01-foundation\create-resource-groups.ps1
@@ -73,14 +76,14 @@ powershell
 .\07-compliance-report\generate-zt-report.ps1
 
 
-## 📊 Results
+##  Results
 - 14 security controls implemented
 - 4 pillars secured
 - Zero public endpoints
 - 100% traffic encrypted
 - 24/7 automated monitoring
 
-## 👩‍💻 Author
-*Uzma Sami*
+##  Author
+*Uzma Shabbir*
 Azure Security Engineer | AZ-104 | AZ-500
 Available on Upwork for Azure Security projects
