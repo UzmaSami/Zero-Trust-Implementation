@@ -8,7 +8,7 @@ By Uzma Sami (AZ-104, AZ-500) | May 2026
 
 "Never trust, always verify." It is an industry mantra, but operationalizing it within a live cloud environment requires moving beyond buzzwords into strict, code-driven engineering.
 
-Welcome to Project 7. This repository details my approach to building a fully automated, strictly governed Zero Trust Architecture in Microsoft Azure, aligned with the NIST SP 800-207 framework. This project isn't just about deploying resources; it's about shifting the paradigm from perimeter-based security to resource-centric, identity-driven micro-segmentation.
+This repository details my approach to building a fully automated, strictly governed Zero Trust Architecture in Microsoft Azure, aligned with the NIST SP 800-207 framework. This project isn't just about deploying resources; it's about shifting the paradigm from perimeter-based security to resource-centric, identity-driven micro-segmentation.
 
 The Challenge: The Death of the Perimeter
 In modern cloud environments, the traditional corporate network perimeter is obsolete. Threat actors no longer "break in"—they log in. During my threat modeling and architecture planning, I identified several critical vulnerabilities inherent in standard cloud deployments:
