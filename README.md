@@ -75,24 +75,24 @@ Execution
 Clone the repository and execute the phases sequentially. Ensure each script completes and validates before moving to the next pillar.
 
 PowerShell
-### 1. Authenticate
+## 1. Authenticate
 Connect-AzAccount
 Set-AzContext -SubscriptionId "<Your-Subscription-ID>"
 
-### 2. Deploy Foundation & Telemetry
+## 2. Deploy Foundation & Telemetry
 .\Phase1-Foundation.ps1
 
-### 3. Secure Identity (PIM & Conditional Access)
+## 3. Secure Identity (PIM & Conditional Access)
 .\Phase2-Identity.ps1
 
-### 4. Micro-segment Network
+## 4. Micro-segment Network
 .\Phase3-Network.ps1
 
-### 5. Lock Down Data (Private Link & Key Vault)
+## 5. Lock Down Data (Private Link & Key Vault)
 .\Phase4-Data.ps1
 
-### 6. Enable Threat Protection
+## 6. Enable Threat Protection
 .\Phase5-Visibility.ps1
 
-### 7. Generate NIST Compliance Dashboard
+## 7. Generate NIST Compliance Dashboard
 .\Phase6-7-VerificationAndReporting.ps1
